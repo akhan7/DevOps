@@ -1,0 +1,10 @@
+#!/bin/bash
+BRANCHNAME=$(git rev-parse --abbrev-ref HEAD)
+if [ "$BRANCHNAME" == "release" ];then
+	curl "http://localhost:8080/job/M1-release/build?token=ahmad" -u "ahmad:ahmad"
+elif [ "$BRANCHNAME" == "dev" ];then
+	curl "http://localhost:8080/job/M1-dev/build?token=ahmad" -u "ahmad:ahmad"
+fi
+
+echo "Build triggered successfully on branch: $BRANCHNAME"
+

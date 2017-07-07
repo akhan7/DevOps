@@ -1,0 +1,14 @@
+#!/bin/sh
+GIT_WORK_TREE=/home/ahmadsaadkhan/Devops/HW4/DockerDeploy/deploy/green-www/ git checkout -f
+cd /home/ahmadsaadkhan/Devops/HW4/DockerDeploy/deploy/green-www
+
+sudo docker build -t ncsu-app .
+sudo docker run -p 9010:8080 -d --name app ncsu-app
+
+sudo docker tag ncsu-app localhost:5000/ncsu:latest
+sudo docker push localhost:5000/ncsu:latest
+
+sudo docker pull localhost:5000/ncsu:latest
+sudo docker stop app
+
+sudo docker restart app
