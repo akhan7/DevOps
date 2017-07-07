@@ -4,9 +4,11 @@ The goal of this work shop is to learn use a combination of mocking, random test
 
 ## Setup and Background
 
+	```bash
     git clone https://github.com/CSC-DevOps/TestGeneration.git
     cd TestGeneration
     npm install
+    ```
 
 ### Code Coverage
 
@@ -23,7 +25,9 @@ You can run the local version as follows:
 
 To install istanbul globally, saving some keystrokes, you can do the following:
 
+	```sh
     npm install istanbul -G
+    ```
 
 You'll get a high level report as follows (a more detailed report will be stored in `coverage/`):
 
@@ -52,7 +56,7 @@ Lines        : 100% ( 4/4 )
 ### Screenshots
 
 1. Screenshot of the istanbul code coverage report. 
-  [![codecoverage1](https://github.ncsu.edu/akhan7/HW2/blob/master/Screenshots/CodeCoverage1.jpg)](#codecoverage1)
+  [![codecoverage1](https://github.com/akhan7/DevOps/blob/master/HW2/Screenshots/CodeCoverage1.jpg)](#codecoverage1)
 
 2. Screenshot of the expanded istanbul code coverage report. 
- [![codecoverage2](https://github.ncsu.edu/akhan7/HW2/blob/master/Screenshots/CodeCoverage2.jpg)](#codecoverage2)
+ [![codecoverage2](https://github.com/akhan7/DevOps/blob/master/HW2/Screenshots/CodeCoverage2.jpg)](#codecoverage2)
