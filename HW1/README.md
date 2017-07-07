@@ -12,7 +12,7 @@ To install all dependencies, first run dependencies.sh. This will install ansibl
 
 5. Create a .aws folder in your home directory and create a new file __credentials__ which will have the AWS secret access key ID and secret access key. This will be used by the aws.js code for authentication purposes. Write the following in the __credentials__ file:
 
-  ```
+  ```javascript
   [default]
   aws_access_key_id = PASTE AWS ACCESS KEY ID HERE
   aws_secret_access_key = PASTE AWS SECRET ACCESS KEY HERE
@@ -20,27 +20,29 @@ To install all dependencies, first run dependencies.sh. This will install ansibl
 
 6. Now run
 
-  ``` javascript
+  ```javascript
   node digitalocean.js
   ```
-This will create a droplet in your account, look up it's IP address and create an inventory file consumible by Ansible.
+
+  This will create a droplet in your account, look up it's IP address and create an inventory file consumible by Ansible.
 
 7. Next run
 
-  ``` javascript
+  ```javascript
   node aws.js
   ```
-This will create an AWS EC2 instance, look up it's IP address and append the inventory file.
+  This will create an AWS EC2 instance, look up it's IP address and append the inventory file.
 
 8. We have to now create the nginx web servers through Ansible using the inventory file generated. 
   
   __IMPORTANT__: We must wait for about a minute after the droplets and instances have been created so that they're status is in the ready state and they can have SSH capabilities. If the code below doesn't work, try again after waiting for about a minute.
 
   Run the following code:
-  ```
+  ```shell
   ansible-playbook playbook.yml -i inventory
-    ```
-This will install nginx servers on the IP address of the droplet and EC2 instance.
+  ```
+  
+  This will install nginx servers on the IP address of the droplet and EC2 instance.
 
 9. Copy the 2 IP address from the command line/inventory file and paste them in the browser. A message will be displayed saying nginx server successfully installed.
 
