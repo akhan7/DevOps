@@ -54,21 +54,21 @@ This will open the proxy server on `localhost:9000` and using the command line w
 
 1. Screencast of SET/GET functionality:
 
-	[![setget](https://github.ncsu.edu/akhan7/HW3/blob/master/Screencast/setget.gif)](#SET/GET)
+	[![setget](https://github.com/akhan7/DevOps/blob/master/HW3/Screencast/setget.gif)](#SET/GET)
 
 2. Screencast of upload/meow functionality:
 
-	[![meow](https://github.ncsu.edu/akhan7/HW3/blob/master/Screencast/meow.gif)](#meow)
+	[![meow](https://github.com/akhan7/DevOps/blob/master/HW3/Screencast/meow.gif)](#meow)
 
 3. Screencast of recent functionality:
 
-	[![recent](https://github.ncsu.edu/akhan7/HW3/blob/master/Screencast/recent.gif)](#recent)
+	[![recent](https://github.com/akhan7/DevOps/blob/master/HW3/Screencast/recent.gif)](#recent)
 
 4. Screencast of spawn/destroy/listservers functionality:
 
-	[![spawn](https://github.ncsu.edu/akhan7/HW3/blob/master/Screencast/spawn.gif)](#spawn)
+	[![spawn](https://github.com/akhan7/DevOps/blob/master/HW3/Screencast/spawn.gif)](#spawn)
 
 5. Screencast of proxy functionality:
 
-	[![proxy](https://github.ncsu.edu/akhan7/HW3/blob/master/Screencast/proxy.gif)](#proxy)
+	[![proxy](https://github.com/akhan7/DevOps/blob/master/HW3/Screencast/proxy.gif)](#proxy)
 
