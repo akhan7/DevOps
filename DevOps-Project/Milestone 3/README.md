@@ -79,7 +79,7 @@ Try to commit
 	* Free-style: Detects how many parameters are being passed in a method. If more than 3 parameters are being passed in a method, it raises an error.
 
 	The results of custom.js are being stored in CustomMetrics. The screenshot for CustomMetrics is below:
-	[![CustomMetrics](https://github.com/akhan7/DevOps/blob/master/DevOps-Project/Milestone%202/CustomMetrics.jpg)](#CustomMetrics)
+	[![CustomMetrics](https://github.com/akhan7/DevOps/blob/master/DevOps-Project/Milestone%202/Screenshots/CustomMetrics.jpg)](#CustomMetrics)
 
 ### Git Hook
 
