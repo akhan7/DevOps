@@ -2,13 +2,13 @@
 
 ## Completed Moodle and Slack profiles
 Moodle Profile
-[![MoodleProfile](https://github.ncsu.edu/akhan7/HW0/blob/master/images/MoodleProfile.jpg)](#MoodleProfile)
+[![MoodleProfile](https://github.com/akhan7/DevOps/HW0/blob/master/images/MoodleProfile.jpg)](#MoodleProfile)
 
 Slack Profile
-[![SlackProfile](https://github.ncsu.edu/akhan7/HW0/blob/master/images/SlackProfile.jpg)](#SlackProfile)
+[![SlackProfile](https://github.com/akhan7/DevOps/HW0/blob/master/images/SlackProfile.jpg)](#SlackProfile)
 
 ## Learning Git
-[![LearningGit](https://github.ncsu.edu/akhan7/HW0/blob/master/images/LearningGit.jpg)](#LearningGit)
+[![LearningGit](https://github.com/akhan7/DevOps/HW0/blob/master/images/LearningGit.jpg)](#LearningGit)
 
 ## Hooks
 The contents of the post-commit hook file to open the browser to a set URl (in our case Google.com) are as follows:
@@ -18,4 +18,4 @@ The contents of the post-commit hook file to open the browser to a set URl (in o
 	xdg-open https://google.com
 
 ## Screencast
-[![Screencast](https://github.ncsu.edu/akhan7/HW0/blob/master/images/Screencast.gif)](#Screencast)
+[![Screencast](https://github.com/akhan7/DevOps/HW0/blob/master/images/Screencast.gif)](#Screencast)
