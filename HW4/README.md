@@ -92,13 +92,13 @@ Extend the deployment workshop to run a docker deployment process.
 ###Screencast
 1. Screencast of Docker compose functionality:
 
-	[![DockerCompose](https://github.ncsu.edu/akhan7/HW4/blob/master/Screencast/1.gif)](#DockerCompose)
+	[![DockerCompose](https://github.com/akhan7/DevOps/blob/master/HW4/Screencast/1.gif)](#DockerCompose)
 
 2. Screencast of Docker deploy functionality:
 
-	[![DockerDeploy](https://github.ncsu.edu/akhan7/HW4/blob/master/Screencast/2.gif)](#DockerDeploy)
+	[![DockerDeploy](https://github.com/akhan7/DevOps/blob/master/HW4/Screencast/2.gif)](#DockerDeploy)
 
 3. Screencast of File IO functionality:
 
-	[![FileIO](https://github.ncsu.edu/akhan7/HW4/blob/master/Screencast/3.gif)](#FileIO)
+	[![FileIO](https://github.com/akhan7/DevOps/blob/master/HW4/Screencast/3.gif)](#FileIO)
 
