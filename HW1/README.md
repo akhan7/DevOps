@@ -20,7 +20,7 @@ To install all dependencies, first run dependencies.sh. This will install ansibl
 
 6. Now run
 
-  ```javascript
+  ```bash
   node digitalocean.js
   ```
 
@@ -28,7 +28,7 @@ To install all dependencies, first run dependencies.sh. This will install ansibl
 
 7. Next run
 
-  ```javascript
+  ```bash
   node aws.js
   ```
   This will create an AWS EC2 instance, look up it's IP address and append the inventory file.
@@ -38,7 +38,7 @@ To install all dependencies, first run dependencies.sh. This will install ansibl
   __IMPORTANT__: We must wait for about a minute after the droplets and instances have been created so that they're status is in the ready state and they can have SSH capabilities. If the code below doesn't work, try again after waiting for about a minute.
 
   Run the following code:
-  ```shell
+  ```bash
   ansible-playbook playbook.yml -i inventory
   ```
   
